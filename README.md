@@ -564,3 +564,12 @@ Mizuki Murata
 ## 謝辞
 
 このプロジェクトは音声認識と音響音声学の研究成果を基に開発されました。
+
+# 必要なライブラリのインストール
+
+whisper_gradient_demo.py を使用する前に、以下のコマンドで必要なライブラリをインストールしてください。
+
+```
+pip install git+https://github.com/openai/whisper.git
+pip install torch librosa numpy matplotlib sounddevice scipy
+```
