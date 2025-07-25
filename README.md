@@ -26,3 +26,23 @@ MFCC34.py, または vowel_recognition_mfcc13.py で認識
 git clone https://github.com/mizuki1024/mfcc-vowel-recognition.git
 cd mfcc-vowel-recognition
 ```
+
+# 必要なライブラリのインストール
+
+whisper_gradient_demo.py を使用する前に、以下のコマンドで必要なライブラリをインストールしてください。
+
+## Macの場合
+```
+pip install git+https://github.com/openai/whisper.git
+pip install torch librosa numpy matplotlib sounddevice scipy
+```
+
+## Windowsの場合
+```
+pip install git+https://github.com/openai/whisper.git
+pip install torch librosa numpy matplotlib sounddevice scipy
+```
+
+※ Windowsでは sounddevice のインストール時にエラーが出る場合、
+公式サイト（https://python-sounddevice.readthedocs.io/en/0.4.6/installation.html）を参照し、
+Microsoft Visual C++ Build Tools のインストールや whl ファイルの利用を検討してください。
